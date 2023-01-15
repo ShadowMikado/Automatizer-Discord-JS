@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "discord.js-selfbot-v13": "^2.9.20",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.2",
+    "http": "^0.0.1-security",
+    "readline-sync": "^1.4.10"
+  }
+}
