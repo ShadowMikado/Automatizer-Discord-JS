@@ -4,7 +4,12 @@
 
 ---
 
+
+
 ## <a id="setup"></a> 📁 » Setting up 
+
+
+ATTENTION: C'EST A VOS RISQUES ET PERILS CAR LES SELFBOT VONT A L'ENCONTRE DES DISCORD ToS
 
 
 1. Installez [Nodejs](https://nodejs.org/)
