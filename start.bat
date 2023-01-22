@@ -1,5 +1,5 @@
 @echo off
-title Automatizer
+title Automatizer By ShadowMikado
 
 if exist node_modules\ (
   node index
