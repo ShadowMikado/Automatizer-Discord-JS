@@ -6,10 +6,10 @@
 
 
 
-## <a id="setup"></a> 📁 » Setting up 
+## <a id="setup"></a> 📁 » Mise En Place
 
 
-ATTENTION: C'EST A VOS RISQUES ET PERILS CAR LES SELFBOT VONT A L'ENCONTRE DES DISCORD ToS (Je ne suis pas responsable de vos actes)
+⚠️**ATTENTION⚠️: C'EST A VOS RISQUES ET PERILS CAR LES SELFBOT VONT A L'ENCONTRE DES DISCORD ToS** (Je ne suis pas responsable de vos actes)
 
 
 1. Installez [Nodejs](https://nodejs.org/).
