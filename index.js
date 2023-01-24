@@ -8,6 +8,7 @@ if (!fs.existsSync("./config.js")) fs.writeFileSync(`./config.js`, 'module.expor
 const consolecolor = require('gradient-string');
 const q = require('readline-sync')
 const config = require('./config')
+var rdm = parseInt( Math.random() * (3900-3600) + 3600)
 
 const token = config.token || process.env.token
 if (!token) throw new TypeError("Placez Votre Token Dans La Config")
@@ -81,7 +82,8 @@ async function main() {
             setInterval(() => {
                 console.log(consolecolor("#431dbf", "#af1dbf")(`\n[+] Envoi du Bump...`))
                 sendBump(channel)
-            }, 1000*3660)        
+            }, 1000*rdm)
+                  
 
         } else {
             console.log(consolecolor("#ff544a","#ff544a")(`\n[!] Erreur, Réessayez...`))
