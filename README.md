@@ -27,7 +27,7 @@ module.exports = {
 }
 ```
 
-Pour copier votre Token vous devez ouvrir la console sur discord, à l'aide des touches Ctrl+Maj+i et coller ce script:
+Pour copier votre Token vous devez ouvrir la console sur discord, à l'aide des touches `Ctrl+Maj+i` et coller ce script:
 
 ```javascript
 window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x))
