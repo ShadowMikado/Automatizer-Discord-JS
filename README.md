@@ -27,3 +27,23 @@ module.exports = {
 }
 ```
 
+Pour copier votre Token vous devez ouvrir la console sur discord, à l'aide des touches Ctrl+Maj+i et coller ce script:
+
+```javascript
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x))
+    {
+       if (m.default && m.default.getToken !== undefined) {
+           console.log(m.default.getToken())
+           copy(m.default.getToken())
+           console.log(`%cYou token has been copied in the clipboard!`, "font-size: 20px")
+       }
+       if (m.getToken !== undefined) {
+           console.log(m.default.getToken())
+           copy(m.default.getToken())
+           console.log(`%cYou token has been copied in the clipboard!`, "font-size: 20px")
+        }  
+       }
+    }
+]);
+```
+
